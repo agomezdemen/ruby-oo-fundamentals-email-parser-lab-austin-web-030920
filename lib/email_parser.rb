@@ -6,8 +6,8 @@ class EmailAddressParser
   end
   
   def parse 
-    
-    
+    @emails =~ /\A\@emails*\Z/
+    puts @emails
   end
   
 end
