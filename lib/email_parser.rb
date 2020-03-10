@@ -5,7 +5,8 @@ class EmailAddressParser
     @emails = email_addresses
   end
   
-  def 
+  def parse 
+    
     
   end
   
